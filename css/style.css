@@ -1,0 +1,131 @@
+@font-face {
+    font-family: MANIFESTO;
+    src: url(../fonts/MANIFESTO.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: Audrey;
+	src: url(../fonts/Audrey-Normal.otf) format('truetype');
+}
+
+
+html, body {
+	height: 100%; 
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+}
+
+
+.row {
+	padding-top: 10%;
+}
+
+
+#temperature {
+	padding-top: 10%;
+	background: transparent;
+	border: none;
+}
+
+
+
+#title {
+	font-family: 'MANIFESTO';
+}
+
+#subtitle {
+	font-family: "MANIFESTO";
+}
+
+#alldata {
+
+	font-family: "Audrey-Normal";
+	letter-spacing: 0.2em;
+	font-size: 1.5em;
+}
+
+
+
+.fog {
+	background-image: url('../img/fog.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	}
+
+
+
+.thunderstorm {
+	background-image: url('../img/thunderstorm.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	}
+
+.rain {
+	background-image: url('../img/rain.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+}
+
+
+.snow {
+	background-image: url('../img/snow.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+
+}
+
+
+.sunny {
+	background-image: url('../img/sunny.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+
+}
+
+.cloud {
+	background-image: url('../img/cloud.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+}
+
+
+.wind {
+	background-image: url('../img/wind.jpg');
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+}
+
+
+.red {
+	background-color: red;
+
+}
