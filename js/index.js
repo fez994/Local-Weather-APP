@@ -2,7 +2,7 @@
 
 
 
-$( document ).ready(function() {
+$(document).ready(function() {
     
 
  alert("This app works with firefox only! This is a problem of the free API (that allows only http request) and chrome that doesn't allow http request; chrome allows https only. Please use firefox");
