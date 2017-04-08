@@ -23,9 +23,13 @@ html, body {
 
 
 #temperature {
-	padding-top: 10%;
 	background: transparent;
 	border: none;
+	outline: none;
+}
+
+.pad-me {
+	padding-top: 10%;
 }
 
 
@@ -130,25 +134,4 @@ html, body {
 
 }
 
-#bottom {
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	width: 100%;
-	font-family: "Audrey";
-	font-size: 2em;
 
-}
-
-
-.source {
-	text-decoration: none !important;
-	color: black;
-
-}
-
-
-.source:hover {
-	text-decoration: none;
-	color: black;
-}

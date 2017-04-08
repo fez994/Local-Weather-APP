@@ -1,26 +1,15 @@
-// THIS APP WORKS WITH FIREFOX ONLY! THIS IS A PROBLEM OF THE FREE API (ALLOW ONLY HTTP REQUEST)/CHROME THAT DOESN'T ALLOW HTTP REQUEST, HTTPS ONLY. PLEASE USE FIREFOX 
-
-
-
 $(document).ready(function() {
-    
 
-
-   
 // Getting geolocalization
 
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(function(position) {
 
 
-
   	// setting lat and lon variable based on the geolocalization
 
   	var lat = position.coords.latitude;
 	var lon = position.coords.longitude;
-
-
-	
 
 	var myApi ='https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=735124465b106ee2def7cd7533415e27';
 
@@ -112,21 +101,13 @@ if (navigator.geolocation) {
 
 	}
 
-
 	
 	changeBg();
 
 
 
 
-
 	}); // end getJSON
-
-
-
-
-
-
 
     
   }); // End get geolocalization
