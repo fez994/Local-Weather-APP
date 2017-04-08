@@ -5,9 +5,6 @@
 $(document).ready(function() {
     
 
- alert("This app works with firefox only! This is a problem of the free API (that allows only http request) and chrome that doesn't allow http request; chrome allows https only. Please use firefox");
-
-
 
    
 // Getting geolocalization
@@ -25,7 +22,7 @@ if (navigator.geolocation) {
 
 	
 
-	var myApi ='http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=735124465b106ee2def7cd7533415e27';
+	var myApi ='https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=735124465b106ee2def7cd7533415e27';
 
 	// get JSON
 
