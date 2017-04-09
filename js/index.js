@@ -34,7 +34,7 @@ if (navigator.geolocation) {
 
 	$("#wind").html("WS " + wind + " knot");
 
-	$("#temperature").html(ceTemp + " C" + "°");
+	$("#temperature").html(ceTemp + " C");
 
 
 	// $("#prova").html(id);
@@ -47,10 +47,10 @@ if (navigator.geolocation) {
 		$this.toggleClass('#temperature');
 
 		if($this.hasClass('#temperature')) {
-			$this.html(faTemp + "° F");
+			$this.html(faTemp + " F");
 		
 		} else {
-			$this.html(ceTemp +"° C");
+			$this.html(ceTemp +" C");
 		}
 
 
